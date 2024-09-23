@@ -1,0 +1,23 @@
+body {
+  background: rgb(153, 248, 154);
+  margin: 0;
+}
+
+.tiles {
+  margin: 48px auto ;
+  width: max-content;
+  display: grid;
+  grid-template-columns: repeat(4, 100px);
+  gap: 16px;
+}
+
+.tile {
+  height: 100px;
+  background-color: #111111;
+  border: 5px solid #444444;
+  cursor: pointer;
+}
+
+h1 {
+  text-align: center;
+}
